@@ -44,6 +44,10 @@
 
     <script id="friendsTemplate" type="text/template">
         <div>
+            <select data-role="sort">
+                <option value="name">По имени</option>
+                <option value="bday">По дню рождения</option>
+            </select>
             <div class="flex-container">
                 {{#each list}}
                     <div class="friend text-center">
